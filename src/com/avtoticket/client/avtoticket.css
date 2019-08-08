@@ -1,0 +1,109 @@
+@external .suggestPopupTopCenter, .suggestPopupMiddleLeft, .suggestPopupMiddleRight, .suggestPopupBottomCenter;
+@external .gwt-DatePicker, .datePickerWeekdayLabel, .datePickerWeekendLabel, .atHidden;
+
+html, body, button, input, select, div, td {
+	font-family: Arial\ Unicode\ MS, Arial, sans-serif, Verdana, Geneva, Kalimati;
+	font-size: 12px;
+}
+
+body, html {
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+/* 	min-width: 1800px; */
+}
+
+/* Убирает пунктир с кнопок в фаерфоксе */
+button::-moz-focus-inner,
+input[type="reset"]::-moz-focus-inner,
+input[type="button"]::-moz-focus-inner,
+input[type="submit"]::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+	border: none;
+}
+
+.atBody {
+	width: 1750px;
+	min-height: literal("calc(100vh - 440px)");
+	position: relative;
+    left: 50%;
+    margin-left: -850px;
+    padding-top: 40px;
+    box-sizing: border-box;
+}
+
+.atBodyBackground {
+	margin-top: 20px;
+	padding-top: 8px;
+	background: #dcdada; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dcdada 0%, #ffffff 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #dcdada 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #dcdada 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dcdada', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+@sprite .atHeadBackground {
+	gwt-image: 'background';
+	width: auto;
+    height: auto;
+    overflow: visible;
+    background-size: cover;
+    background-position-y: bottom;
+    position: relative;
+}
+
+.atHeadBackground::before {
+  content: "";
+  position: absolute;
+  top: 0; 
+  left: 0;
+  width: 100%; 
+  height: 100%;  
+  opacity: 0.5; 
+  background-color: white;
+}
+
+@sprite .atFooter {
+	gwt-image: 'copyright';
+	width: 1750px;
+	height: 40px;
+	position: relative;
+    left: 50%;
+    margin-left: -850px;
+    font-size: 14px;
+    text-align: right;
+    line-height: 42px;
+    background-position: right 35px center;
+}
+
+.suggestPopupTopCenter, .suggestPopupMiddleLeft, .suggestPopupMiddleRight, .suggestPopupBottomCenter {
+	background-color: white;
+}
+
+.gwt-DatePicker td {
+	font-size: 16px;
+}
+
+.gwt-DatePicker .datePickerWeekdayLabel,
+.gwt-DatePicker .datePickerWeekendLabel {
+	font-size: 70%;
+}
+
+.atHidden {
+	display: none;
+	visibility: hidden;
+}
+
+.atStavr {
+	color: #8e8e8e !important;
+	font-size: 18px;
+	position: absolute;
+	top: 4px;
+    left: 662px;
+}
+
+.atStavr:hover {
+	color: #649de3 !important;
+    text-decoration: none;
+}
