@@ -1,0 +1,144 @@
+@external .gwt-TabLayoutPanelTabs, .gwt-TabLayoutPanelTab, .gwt-TabLayoutPanelContentContainer, .gwt-TabLayoutPanelTab-selected;
+@external .gwt-Label, .gwt-TextBox, .gwt-DateBox, .gwt-PasswordTextBox;
+
+.atProfilePanel {
+	width: 1270px;
+	height: 530px;
+}
+
+.atProfilePanel .gwt-TabLayoutPanelTabs {
+	background: transparent;
+	margin-left: 64px;
+}
+
+.atProfilePanelAdmin .gwt-TabLayoutPanelTabs {
+	margin-left: -34px;
+}
+
+.atProfilePanel .gwt-TabLayoutPanelContentContainer {
+	border: none;
+}
+
+.atProfilePanel .gwt-TabLayoutPanelTab {
+	background: transparent;
+	margin-left: 34px;
+}
+
+.atProfilePanelAdmin .gwt-TabLayoutPanelTab {
+	margin-left: 38px;
+}
+
+.atProfilePanel .gwt-TabLayoutPanelTab .gwt-Label {
+	font-size: 18px;
+	color: black;
+}
+
+.atProfilePanel .gwt-TabLayoutPanelTab-selected .gwt-Label {
+	font-weight: normal;
+	color: #649de3;
+}
+
+.atProfileAccountPanel {
+	width: 100%;
+	height: 100%;
+}
+
+@sprite .atProfileAvatar {
+	gwt-image: 'placeholder';
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+    border: 1px solid #CCCCCC;
+    background-size: cover;
+}
+
+.atProfileLastName {
+	font-size: 36px;
+	color: #649de3;
+}
+
+.atProfileFirstName {
+	font-size: 30px;
+	color: #6a6a6a;
+}
+
+.atProfileAge {
+	font-size: 80px;
+	color: #649de3;
+	position: absolute;
+    right: 40px;
+    top: 90px;
+}
+
+.atProfileAccountEditBtn,
+.atProfileAccountEditBtn:hover {
+	color: #649de3;
+	font-size: 20px;
+	position: absolute;
+    right: 40px;
+    top: 466px;
+}
+
+.atProfileAccountLabel {
+	font-size: 20px;
+	color: #6a6a6a;
+}
+
+.atProfileAccountValue {
+	font-size: 20px;
+}
+
+.atProfileAccountField.gwt-TextBox,
+.atProfileAccountField.gwt-DateBox,
+.atProfileAccountField.gwt-PasswordTextBox,
+.atProfileAccountField.listbox-atList {
+	width: 280px;
+	height: 44px;
+	border: 1px solid #535353;
+	border-radius: 1px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+.atProfileAccountField.gwt-TextBox,
+.atProfileAccountField.gwt-DateBox,
+.atProfileAccountField.gwt-PasswordTextBox {
+	padding: 5px 20px;
+}
+
+.atProfileAccountField.listbox-atList {
+	padding-left: 20px;
+}
+
+@if !user.agent safari {
+	.atProfileAccountField:-moz-placeholder {
+		color: #649de3;
+	}
+}
+
+@if user.agent safari {
+	.atProfileAccountField::-webkit-input-placeholder {
+		color: #649de3;
+	}
+}
+
+.atProfileAccountEditorTitle {
+	font-size: 18px;
+	color: #649de3;
+}
+
+.atProfileTicketCounts {
+	position: absolute;
+	top: 16px;
+	left: 20px;
+}
+
+.atProfileTicketCountsLabel {
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+.atProfileTicketCountsValue {
+	font-size: 14px;
+	color: #649de3;
+}

@@ -1,0 +1,44 @@
+.atProjectLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+.atProjectBig {
+	width: 634px;
+	height: 346px;
+	background-position: center;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	padding: 18px 40px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 14px;
+    background-color: #f9fbfe;
+}
+
+@sprite .atProjectMedium {
+	gwt-image: 'projectMedium';
+	width: 392px;
+	height: 222px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+@sprite .atProjectSmall {
+	gwt-image: 'projectSmall';
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.atProjectSmall:hover,
+.atProjectMedium:hover {
+	border: 1px solid #2373d7;
+}

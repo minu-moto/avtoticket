@@ -1,0 +1,41 @@
+.atPartnersLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+@sprite .atPartnersBig {
+	gwt-image: 'partnersBig';
+	width: 632px;
+	height: 344px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+}
+
+@sprite .atPartnersMedium {
+	gwt-image: 'partnersMedium';
+	width: 392px;
+	height: 222px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+@sprite .atPartnersSmall {
+	gwt-image: 'partnersSmall';
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.atPartnersSmall:hover,
+.atPartnersMedium:hover {
+	border: 1px solid #2373d7;
+}

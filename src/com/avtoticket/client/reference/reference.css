@@ -1,0 +1,83 @@
+.atReferenceLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+.atReferenceBig {
+	width: 632px;
+	height: 344px;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	overflow-y: auto;
+	background-color: white;
+}
+
+@sprite .atReferenceMedium {
+	gwt-image: 'referenceMedium';
+	width: 392px;
+	height: 222px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+@sprite .atReferenceSmall {
+	gwt-image: 'referenceSmall';
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.atReferenceSmall:hover,
+.atReferenceMedium:hover {
+	border: 1px solid #2373d7;
+}
+
+.atReferenceCaption {
+	font-size: 20px;
+    color: #009be9;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 12px;
+}
+
+.atReferenceCells {
+	-webkit-column-count: 2;
+	   -moz-column-count: 2;
+	        column-count: 2;
+    -webkit-column-gap: 30px;
+       -moz-column-gap: 30px;
+    		column-gap: 30px;
+    -webkit-column-rule: 2px solid #deedf6;
+       -moz-column-rule: 2px solid #deedf6;
+    		column-rule: 2px solid #deedf6;
+    padding: 0px 18px;
+}
+
+.atReferenceCell {
+	width: 265px;
+	height: 50px;
+	padding-bottom: 6px;
+	-webkit-column-break-inside: avoid;
+          	  page-break-inside: avoid;
+                   break-inside: avoid;
+}
+
+.atReferenceCellHeader {
+	font-size: 12px;
+	color: #009be9;
+}
+
+.atReferenceFieldLeft {
+  	float: left;
+}
+
+.atReferenceFieldRight {
+  	text-align: right;
+}

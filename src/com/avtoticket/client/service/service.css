@@ -1,0 +1,59 @@
+.atServiceLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+@sprite .atServiceBig {
+	gwt-image: 'serviceBig';
+	width: 632px;
+	height: 344px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	position: relative;
+}
+
+@sprite .atServiceMedium {
+	gwt-image: 'serviceMedium';
+	width: 392px;
+	height: 222px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+	position: relative;
+}
+
+@sprite .atServiceSmall {
+	gwt-image: 'serviceSmall';
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.atServiceSmall:hover,
+.atServiceMedium:hover {
+	border: 1px solid #2373d7;
+}
+
+.atServiceQuestions {
+	font-size: 18px;
+	color: #2373ec;
+	position: absolute;
+	top: 96px;
+	left: 22px;
+	letter-spacing: 1px;
+}
+
+.atServiceContent {
+	font-size: 14px;
+	position: absolute;
+	top: 16px;
+	left: 38px;
+}

@@ -1,0 +1,100 @@
+@sprite .cellTableLoading > div {
+	gwt-image: 'waiter';
+    margin-top: 20px;
+}
+
+.cellTableWidget {
+	table-layout: fixed;
+	width: 1270px;
+}
+
+.cellTableHeader {
+	overflow: hidden;
+	font-size: 18px;
+	color: #649de3;
+	text-align: left;
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+
+.cellTableCell {
+	overflow: hidden;
+	padding: 8px 4px;
+	height: 34px;
+}
+
+.cellTableCell > div {
+	font-size: 18px;
+}
+
+.cellTableHoveredRow, .cellTableSelectedRow, .cellTableKeyboardSelectedRow {
+	background-color: #c4e2f8;
+	cursor: pointer;
+}
+
+.cellTableHoveredRow .cellTableLastColumn > div::before,
+.cellTableSelectedRow .cellTableLastColumn > div::before,
+.cellTableKeyboardSelectedRow .cellTableLastColumn > div::before {
+	content: '\041A\0443\043F\0438\0442\044C';
+	float: left;
+    margin-top: 4px;
+}
+
+.cellTableHoveredRow .cellTableLastColumn > div::after,
+.cellTableSelectedRow .cellTableLastColumn > div::after,
+.cellTableKeyboardSelectedRow .cellTableLastColumn > div::after {
+	content: '\20BD';
+	background-color: #2ebfb4;
+	border-radius: 50%;
+	width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-left: 8px;
+    font-size: 22px;
+}
+
+.atRoutesInactive {
+	color: silver;
+    cursor: default;
+}
+
+.atRoutesInactive .cellTableLastColumn > div::before,
+.atRoutesInactive .cellTableLastColumn > div::after {
+	display: none;
+}
+
+.cellTableFooter {}
+
+.cellTableSortableHeader {}
+
+.cellTableHoveredRowCell {}
+
+.cellTableFirstColumn {}
+
+.cellTableOddRowCell {}
+
+.cellTableEvenRow {}
+
+.cellTableFirstColumnFooter {}
+
+.cellTableSelectedRowCell {}
+
+.cellTableLastColumnFooter {}
+
+.cellTableSortedHeaderAscending {}
+
+.cellTableFirstColumnHeader {}
+
+.cellTableOddRow {}
+
+.cellTableLastColumnHeader {}
+
+.cellTableKeyboardSelectedCell {}
+
+.cellTableSortedHeaderDescending {}
+
+.cellTableKeyboardSelectedRowCell {}
+
+.cellTableEvenRowCell {}
