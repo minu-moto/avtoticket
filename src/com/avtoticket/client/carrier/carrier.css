@@ -1,0 +1,87 @@
+@external .gwt-TabLayoutPanelTabs, .gwt-TabLayoutPanelTab, .gwt-TabLayoutPanelContentContainer, .gwt-TabLayoutPanelTab-selected;
+@external .gwt-Label, .gwt-TextBox, .gwt-DateBox, .gwt-PasswordTextBox;
+
+.atCarrierPanel {
+	width: 1270px;
+	height: 530px;
+}
+
+.atCarrierPanel .gwt-TabLayoutPanelTabs {
+	background: white;
+}
+
+.atCarrierPanel .gwt-TabLayoutPanelContentContainer {
+	border: none;
+}
+
+.atCarrierPanel .gwt-TabLayoutPanelTab {
+	background: white;
+	margin-left: 100px;
+}
+
+.atCarrierPanel .gwt-TabLayoutPanelTab:first-child {
+	margin-left: 0px;
+}
+
+.atCarrierPanel .gwt-TabLayoutPanelTab .gwt-Label {
+	font-size: 18px;
+	color: black;
+}
+
+.atCarrierPanel .gwt-TabLayoutPanelTab-selected .gwt-Label {
+	font-weight: normal;
+	color: #649de3;
+}
+
+.atCarrierPassport input {
+	width: 310px;
+	height: 40px;
+	border: 1px solid #535353;
+	border-radius: 1px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin-bottom: 18px;
+	padding: 5px 10px;
+}
+
+.atCarrierPassportCaption {
+	color: red;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.atCarrierPassportNextBtn,
+.atCarrierPassportNextBtn:hover {
+	color: #649de3;
+	font-size: 20px;
+	margin-bottom: 18px;
+    display: block;
+    margin-left: 40px;
+}
+
+.atCarrierRequisite input {
+	width: 310px;
+	height: 40px;
+	border: 1px solid #535353;
+	border-radius: 1px;
+	font-size: 16px;
+	box-sizing: border-box;
+	margin-bottom: 18px;
+	margin-right: 90px;
+	padding: 5px 10px;
+}
+
+.atCarrierRequisiteCaption {
+	color: red;
+	font-size: 20px;
+	padding-bottom: 20px;
+}
+
+.atCarrierRequisiteNextBtn,
+.atCarrierRequisiteNextBtn:hover {
+	color: #649de3;
+	font-size: 20px;
+	margin-bottom: 18px;
+    display: block;
+    margin-right: 90px;
+}

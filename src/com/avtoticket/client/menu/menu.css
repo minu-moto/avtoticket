@@ -1,0 +1,178 @@
+@external .suggestPopupContent;
+
+.atMenu {
+	position: relative;
+	width: 1700px;
+	left: 50%;
+	margin-left: -850px;
+}
+
+@sprite .atMenuLogo {
+	gwt-image: 'logo';
+	margin-top: -15px;
+	float: left;
+}
+
+.atMenuItems {
+	border-bottom: 1px solid black;
+	height: 66px;
+    width: 1614px;
+    left: -10px;
+    position: relative;
+}
+
+.atMenuItems td {
+	font-size: 18px;
+	white-space: nowrap;
+    padding: 22px 36px 0px;
+}
+
+.atMenuItems a, .atMenuItems a:hover, .atMenuItems a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.atMenuItems a:hover {
+	text-decoration: underline;
+}
+
+.atRouteSelector {
+	width: 1111px;
+	height: 180px;
+	margin-left: 333px;
+    margin-top: 24px;
+}
+
+.atRouteSelectorLabel {
+	font-size: 18px;
+	color: #8e8e8e;
+	position: absolute;
+	top: 0px;
+	left: 228px;
+}
+
+.atRouteSelectorTo {
+	position: absolute;
+	width: 192px;
+	height: 30px;
+	border: 1px solid #535353;
+	border-radius: 1px;
+	font-size: 16px;
+	padding: 5px 50px 5px 12px;
+}
+
+.atRouteSelectorFrom {
+	position: absolute;
+	left: 228px;
+	top: 36px;
+}
+
+.atRouteSelectorTo {
+	left: 583px;
+	top: 36px;
+}
+
+.atRouteSelectorToSuggest .suggestPopupContent table {
+	min-width: 246px;
+}
+
+@sprite .atRouteSelectorCurve {
+	gwt-image: 'curve';
+	position: absolute;
+    left: 500px;
+    top: 34px;
+    overflow: visible;
+}
+
+.atRouteSelectorCurve:before,
+.atRouteSelectorCurve:after {
+	width: 32px;
+	height: 32px;
+	background-color: white;
+	border-radius: 50%;
+	color: red;
+	border: 1px solid #025ed1;
+	position: absolute;
+	font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.atRouteSelectorCurve:before {
+	content: '\0410';
+    left: -33px;
+    top: 27px;
+}
+
+.atRouteSelectorCurve:after {
+	content: '\0411';
+	left: 66px;
+    top: -14px;
+}
+
+.atRouteSelectorSearchBtn,
+.atRouteSelectorSearchBtn:hover {
+	position: absolute;
+	right: 50px;
+	bottom: 30px;
+	width: 154px;
+	height: 44px;
+	border: 1px solid #5d5d5d;
+	border-radius: 1px;
+	background-image: none;
+	background-color: #649de3;
+	color: white;
+	font-size: 18px;
+	outline: none;
+}
+
+@sprite .atRouteSelectorChangeBtn {
+	gwt-image: 'reverse';
+    position: absolute;
+    left: 512px;
+    top: 36px;
+    cursor: pointer;
+}
+
+@sprite .atRouteSelectorChangeBtn:hover {
+	gwt-image: 'reverse_hover';
+}
+
+.atDateSelectorDateLbl {
+	color: #649de3;
+	font-size: 18px;
+	position: absolute;
+    bottom: 11px;
+}
+
+.atDateSelectorLine {
+	width: 777px;
+	height: 1px;
+	border-bottom: 1px solid #808080;
+	position: absolute;
+    bottom: 19px;
+    left: 110px;
+}
+
+@sprite .atRouteSelectorDateSelector {
+	gwt-image: 'clock';
+	width: 104px;
+	height: 64px;
+	background-position: center bottom;
+	position: relative;
+	left: 60px;
+	font-size: 18px;
+	color: #2373d7;
+	text-align: center;
+    cursor: w-resize;
+    white-space: nowrap;
+    user-select: none;
+}
+
+.atDateSelector {
+	width: 888px;
+	position: absolute;
+    left: 20px;
+    bottom: 11px;
+}

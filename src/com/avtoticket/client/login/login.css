@@ -1,0 +1,114 @@
+.atLoginPanel {
+	width: 100%;
+	table-layout: fixed;
+	border-spacing: 0px;
+}
+
+.atLoginHeader {
+	background-color: #747474;
+	height: 70px;
+}
+
+a.atLoginLogo, .atLoginLogo:hover {
+	font-size: 26px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.atLoginPhone {
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.atLoginProfile {
+	text-align: right;
+	padding-top: 12px;
+} 
+
+.atLoginProfile a,
+.atLoginProfile a:hover {
+	color: #747474;
+	font-size: 20px;
+}
+
+.atLoginBtnLogin {
+	margin-right: 20px;
+}
+
+.atLoginBtnLogin, .atLoginBtnRegister, .atLoginBtnLogout,
+.atLoginBtnLogin:hover, .atLoginBtnRegister:hover, .atLoginBtnLogout:hover {
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.atLoginSocialBtns {
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 12px;
+}
+
+.atLoginLoginFields {
+	display: inline-block;
+}
+
+.atLoginLoginFields td {
+	padding: 0px 10px;
+    vertical-align: middle !important;
+}
+
+.atLoginBtnRemind, .atLoginBtnRemind:hover {
+	color: silver;
+    font-size: 16px;
+}
+
+.atLoginRemember {
+	top: 2px;
+    position: relative;
+    display: block;
+}
+
+.atLoginRemember input {
+	margin-top: 4px;
+    float: left;
+}
+
+.atLoginTextBox, .atLoginPasswordTextBox {
+	font-size: 16px;
+	color: #646566;
+}
+
+.atLoginRegisterDialogLayout {
+	width: 700px;
+	height: 420px;
+}
+
+.atLoginRegisterDialogTitle {
+	color: #504f4f;
+    font-size: 24px;
+}
+
+.atLoginRegisterDialogHint {
+	color: #504f4f;
+    font-size: 18px;
+}
+
+.atLoginRegisterDialogFields {
+	width: 528px;
+	height: 45px;
+	font-size: 22px;
+	text-align: center;
+}
+
+.atLoginRegisterDialogBtn,
+.atLoginRegisterDialogBtn:hover {
+	color: #6864ff;
+    font-size: 24px;
+}
+
+.atLoginRegisterDialogLayout td,
+.atLoginRemindDialogLayout td {
+	text-align: center;
+	padding: 2px;
+}

@@ -1,0 +1,54 @@
+@external .suggestPopupContent;
+
+.atMapLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+.atMapBig {
+	width: 632px;
+	height: 344px;
+	background-position: center;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+}
+
+@sprite .atMapMedium {
+	gwt-image: 'mapMedium';
+	width: 392px;
+	height: 222px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+@sprite .atMapSmall {
+	gwt-image: 'map';
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.atMapSmall:hover,
+.atMapMedium:hover {
+	border: 1px solid #2373d7;
+}
+
+.atMapLocalityLabel {
+	font-size: 14px;
+	position: absolute;
+	left: 0px;
+	top: -40px;
+}
+
+.atMapLocalitySelector {
+	position: absolute;
+	left: 0px;
+	top: -14px;
+}

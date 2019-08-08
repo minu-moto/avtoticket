@@ -1,0 +1,219 @@
+.atNewsList.gwt-CellList-cellListWidget {
+	float: right;
+	width: 485px;
+	height: 512px;
+	margin-right: -18px;
+	padding: 1px;
+	overflow: hidden;
+	position: relative;
+}
+
+.atNewsList.gwt-CellList-cellListWidget:hover {
+	overflow: auto;
+}
+
+.atNewsList .gwt-CellList-cellListEvenItem,
+.atNewsList .gwt-CellList-cellListOddItem {
+	width: 466px;
+	height: 128px;
+	overflow: hidden;
+	color: black;
+}
+
+.atNewsSelectedItem,
+.atNewsList .gwt-CellList-cellListKeyboardSelectedItem,
+.atNewsList .gwt-CellList-cellListSelectedItem,
+.atNewsList .gwt-CellList-cellListEvenItem:hover,
+.atNewsList .gwt-CellList-cellListOddItem:hover {
+	background-image: none;
+	background-color: #edf3fc;
+	outline: 1px solid #ababab !important;
+}
+
+.atNewsSelectedItem .atNewsFlexContainer,
+.atNewsList .gwt-CellList-cellListKeyboardSelectedItem .atNewsFlexContainer,
+.atNewsList .gwt-CellList-cellListSelectedItem .atNewsFlexContainer,
+.atNewsList .gwt-CellList-cellListEvenItem:hover .atNewsFlexContainer,
+.atNewsList .gwt-CellList-cellListOddItem:hover .atNewsFlexContainer {
+	border-bottom: none;
+}
+
+.atNewsEmpty {
+	text-align: center;
+}
+
+.atNewsImgPreview {
+	width: 100px;
+	height: 100px;
+	margin: 12px 12px 12px 20px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.atNewsFlexContainer {
+	width: 320px;
+	height: 87px;
+	padding: 20px 0px;
+/* 	display: flex; */
+/* 	flex-direction: column; */
+	border-bottom: 1px dotted black;
+	margin-left: 132px;
+}
+
+.atNewsCellsContainer {
+}
+
+.atNewsCellsContainer :last-of-type .atNewsFlexContainer {
+	border-bottom: none;
+}
+
+.atNewsTitle {
+	font-size: 18px;
+	line-height: 21px;
+    max-height: 42px;
+	color: #5a5a5a;
+    overflow: hidden;
+/*     flex-grow: 1; */
+/*     flex-shrink: 0; */
+}
+
+.atNewsContent {
+	position: relative;
+	font-size: 14px;
+    overflow: hidden;
+/*     margin-top: 8px; */
+    text-align: justify;
+    line-height: 16px;
+    max-height: 45px;
+}
+
+.atNewsContent p {
+	margin-top: 12px;
+}
+
+.atNewsContent:after {
+	content: "";
+  	background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1));
+  	height: 20px;
+  	width: 100%;
+  	position: absolute;
+  	bottom: 0px;
+  	left: 0px;
+	display: none;
+}
+
+.atNewsSelectedItem .atNewsFlexContainer .atNewsContent:after,
+.atNewsList .gwt-CellList-cellListKeyboardSelectedItem .atNewsFlexContainer .atNewsContent:after,
+.atNewsList .gwt-CellList-cellListSelectedItem .atNewsFlexContainer .atNewsContent:after,
+.atNewsList .gwt-CellList-cellListEvenItem:hover .atNewsFlexContainer .atNewsContent:after,
+.atNewsList .gwt-CellList-cellListOddItem:hover .atNewsFlexContainer .atNewsContent:after {
+	background: linear-gradient(to bottom, rgba(237, 243, 252, 0), rgba(237, 243, 252, 1));
+}
+
+.atNewsExpanded,
+.atNewsExpanded div {
+	-webkit-transition: all ease .2s;
+	   -moz-transition: all ease .2s;
+	     -o-transition: all ease .2s;
+	        transition: all ease .2s;
+}
+
+.atNewsExpanded {
+	top: 1px !important;
+	height: auto !important;
+	cursor: inherit !important;
+	margin-bottom: 1px;
+}
+
+.atNewsExpanded .atNewsFlexContainer {
+    width: 440px;
+	margin: 266px 13px 13px;
+    height: auto;
+    padding: 0px;
+}
+
+.atNewsExpanded .atNewsTitle,
+.atNewsExpanded .atNewsContent {
+	max-height: inherit;
+}
+
+.atNewsExpanded .atNewsImgPreview {
+    border-radius: 0%;
+    width: 440px;
+    height: 240px;
+	margin: 13px;
+}
+
+.atNewsExpanded .atNewsFlexContainer .atNewsContent:after,
+.atNewsExpanded:hover .atNewsFlexContainer .atNewsContent:after {
+	display: none;
+}
+
+.atNewsFooter {
+	height: 0px;
+	padding: 0px 13px;
+	background-color: white;
+}
+
+.atNewsExpanded .atNewsFooter {
+	height: 40px;
+	border-top: 1px solid #c2c5c8;
+}
+
+@sprite .atNewsVK {
+	gwt-image: 'vk';
+	display: block;
+}
+
+@sprite .atNewsFB {
+	gwt-image: 'fb';
+	display: block;
+}
+
+@sprite .atNewsOK {
+	gwt-image: 'ok';
+	display: block;
+}
+
+@sprite .atNewsWaiter {
+	gwt-image: 'waiter';
+	position: relative;
+    left: 50%;
+    margin-left: -8px;
+}
+
+.atNewsMore {
+	font-size: 14px;
+	color: #127cff;
+	float: right;
+}
+
+.atNewsLayout {
+	float: right;
+    position: relative;
+}
+
+.atNewsCaption,
+.atNewsBack,
+.atNewsBack:hover {
+	font-size: 18px;
+	color: #8e8e8e;
+	position: absolute;
+    top: -36px;
+}
+
+.atNewsCaption {
+    left: 132px;
+}
+
+.atNewsBack,
+.atNewsBack:hover {
+    right: 12px;
+}
+
+.atNewsBack:hover {
+	color: #649de3 !important;
+    text-decoration: none;
+}

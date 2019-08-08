@@ -1,0 +1,224 @@
+@external .gwt-TabLayoutPanelTabs, .gwt-TabLayoutPanelTab, .gwt-TabLayoutPanelContentContainer, .gwt-TabLayoutPanelTab-selected;
+@external .gwt-Label, .gwt-TextBox, .gwt-DateBox;
+
+.atOrderPanel {
+	position: relative;
+	width: 1258px;
+}
+
+.atOrderPassageInfo {
+	width: 1111px;
+	height: 133px;
+	position: absolute !important;
+	left: 14px;
+	top: 46px;
+}
+
+.atOrderTitle, .atOrderTicketTitle {
+	color: #ff0000;
+	font-size: 18px;
+}
+
+.atOrderLabel {
+	color: #1260c0;
+	font-size: 18px;
+}
+
+.atOrderValue, .atOrderPriceValue {
+	font-size: 18px;
+}
+
+.atOrderTickets {
+	height: 485px;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTabs {
+	background: transparent;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelContentContainer {
+	border: none;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTab {
+	background: transparent;
+	margin-left: 10px;
+	padding-right: 32px;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTab:first-child {
+	margin-left: 0px;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTab .gwt-Label {
+	font-size: 18px;
+	color: #259990;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTab-selected .gwt-Label {
+	font-weight: normal;
+	font-size: 24px;
+	color: #649de3;
+}
+
+.atOrderTicketEditor {
+	margin-top: 140px;
+	padding-left: 14px !important;
+}
+
+.atOrderPricePanel {
+	width: 1200px;
+    table-layout: fixed;
+    margin-left: 10px;
+}
+
+.atOrderPriceValue {
+	text-align: right;
+}
+
+.atOrderPricePayBtn {
+	font-size: 18px;
+	color: #25958d;
+	cursor: pointer;
+	float: right;
+}
+
+.atOrderPricePayBtn::before {
+	content: '\041E\043F\043B\0430\0442\0438\0442\044C';
+	float: left;
+    margin-top: 4px;
+}
+
+.atOrderPricePayBtn::after {
+	content: '\20BD';
+	background-color: #2ebfb4;
+	border-radius: 50%;
+	width: 32px;
+    height: 32px;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin-left: 8px;
+    font-size: 22px;
+}
+
+.atOrderTicketAdd,
+.atOrderTicketAdd:hover {
+	font-size: 18px;
+	color: #1260c0 !important;
+	position: absolute;
+	right: 212px;
+	bottom: 36px;
+}
+
+.atOrderTicketField.gwt-TextBox,
+.atOrderTicketField.gwt-DateBox,
+.atOrderTicketField.listbox-atList {
+	width: 280px;
+	height: 44px;
+	border: 1px solid #535353;
+	border-radius: 1px;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+.atOrderTicketField.gwt-TextBox,
+.atOrderTicketField.gwt-DateBox {
+	padding: 5px 20px;
+}
+
+.atOrderTicketField.listbox-atList {
+	padding-left: 20px;
+}
+
+@if !user.agent safari {
+	.atOrderTicketField:-moz-placeholder {
+		color: #649de3;
+	}
+}
+
+@if user.agent safari {
+	.atOrderTicketField::-webkit-input-placeholder {
+		color: #649de3;
+	}
+}
+
+.atOrderTicketType {
+	font-size: 18px;
+}
+
+.atOrderTicketType input {
+	display: none;
+}
+
+.atOrderTicketType label {
+	cursor: pointer;
+}
+
+.atOrderTicketType input:checked + label {
+	color: #1260c0;
+}
+
+.atOrderTicketBaggageLbl {
+	font-size: 18px;
+	color: #1260c0;
+}
+
+@sprite .atOrderTicketBaggage label {
+	gwt-image: 'baggage';
+	height: 31px;
+	display: block;
+	cursor: pointer;
+}
+
+.atOrderTicketBaggage input {
+	display: none;
+}
+
+.atOrderTicketBaggage input:checked + label {
+	background-position: 0px -31px;
+}
+
+@sprite .atOrderTicketClose {
+	gwt-image: 'close';
+	height: 26px;
+	position: absolute;
+	right: 0px;
+	bottom: 4px;
+	cursor: pointer;
+	display: none;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTab-selected .atOrderTicketClose {
+	bottom: 6px;
+}
+
+.atOrderTicketClose:hover {
+	background-position: 0px -26px;
+}
+
+.atOrderTickets .gwt-TabLayoutPanelTab:hover .atOrderTicketClose {
+	display: inherit;
+}
+
+.atOrderTicketsUnclosable .atOrderTicketClose {
+	display: none !important;
+}
+
+.atOrderTicketTemplateBtn,
+.atOrderTicketTemplateBtn:hover {
+	font-size: 18px;
+	color: #1260c0 !important;
+	position: absolute;
+	right: 70px;
+	top: 6px;
+}
+
+.atOrderTicketTemplatePopup {
+    border: 1px solid #888;
+    padding: 4px;
+}
+
+.atOrderTicketTemplateMenu td {
+	font-size: 18px !important;
+}

@@ -1,0 +1,47 @@
+.atAboutLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+.atAboutBig {
+	width: 634px;
+	height: 346px;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	background-color: #f9fbfe;
+	padding: 20px 20px 0px;
+	box-sizing: border-box;
+}
+
+.atAboutMedium {
+	background-position: center;
+	background-color: white;
+	width: 392px;
+	height: 222px;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+	font-size: 36px;
+	color: #2373ec;
+	text-align: center;
+	line-height: 224px;
+}
+
+.atAboutSmall {
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+	color: #2373ec;
+	text-align: center;
+    line-height: 102px;
+    font-size: 24px;
+}
+
+.atAboutSmall:hover,
+.atAboutMedium:hover {
+	border: 1px solid #2373d7;
+}

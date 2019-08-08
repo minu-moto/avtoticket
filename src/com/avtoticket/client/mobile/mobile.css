@@ -1,0 +1,82 @@
+.atMobileLabel {
+	font-size: 14px;
+	height: 20px;
+}
+
+@sprite .atMobileBig {
+	gwt-image: 'mobileBig';
+	width: 632px;
+	height: 344px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	position: relative;
+}
+
+@sprite .atMobileMedium {
+	gwt-image: 'mobileMedium';
+	width: 392px;
+	height: 222px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+@sprite .atMobileSmall {
+	gwt-image: 'mobileSmall';
+	width: 180px;
+	height: 100px;
+	background-position: center;
+	background-color: white;
+	border: 1px solid #1d1d1d;
+	border-radius: 1px;
+	cursor: pointer;
+}
+
+.atMobileSmall:hover,
+.atMobileMedium:hover {
+	border: 1px solid #2373d7;
+}
+
+.atMobileAppleBtn {
+	position: absolute;
+    right: 26px;
+    top: 174px;
+    font-size: 14px;
+}
+
+.atMobileGoogleBtn {
+	position: absolute;
+    right: 26px;
+    top: 272px;
+    font-size: 14px;
+}
+
+.atMobileCaption {
+	position: absolute;
+	font-size: 20px;
+	text-align: center;
+	color: #3e3e3e;
+    top: 30px;
+    width: 100%;
+}
+
+.atMobileApple, .atMobileAndroid {
+	position: absolute;
+	color: #3e3e3e;
+	font-size: 14px;
+	width: 250px;
+	text-align: justify;
+	right: 18px;
+}
+
+.atMobileApple {
+	top: 136px;
+}
+
+.atMobileAndroid {
+	top: 234px;
+}

@@ -1,0 +1,149 @@
+@external .gwt-TabLayoutPanelTabs, .gwt-TabLayoutPanelTab, .gwt-TabLayoutPanelContentContainer, .gwt-TabLayoutPanelTab-selected, .gwt-Label;
+
+.atAdminPanel {
+	width: 1270px;
+	height: 630px;
+}
+
+.atAdminPanel .gwt-TabLayoutPanelTabs {
+	background: transparent;
+	margin-left: 36px;
+}
+
+.atAdminPanel .gwt-TabLayoutPanelContentContainer {
+	border: none;
+}
+
+.atAdminPanel .gwt-TabLayoutPanelTab {
+	background: transparent;
+	margin-left: 34px;
+}
+
+.atAdminPanel .gwt-TabLayoutPanelTab .gwt-Label {
+	font-size: 18px;
+	color: black;
+}
+
+.atAdminPanel .gwt-TabLayoutPanelTab-selected .gwt-Label {
+	font-weight: normal;
+	color: #649de3;
+}
+
+.atAdminNewsRichEdit {
+	position: absolute;
+	right: 0px;
+	top: 149px;
+	width: 670px;
+	border: 1px solid #ccc;
+}
+
+.atAdminNewsRichArea {
+	background: white;
+	width: 100%;
+    height: 300px;
+}
+
+.atAdminNewsRichToolbar {
+	border-bottom: 1px solid #ccc;
+}
+
+.atAdminNewsCaptionLbl {
+	position: absolute;
+    left: 600px;
+    font-size: 16px;
+}
+
+.atAdminNewsCaption {
+	position: absolute;
+    left: 600px;
+    font-size: 16px;
+    top: 30px;
+    width: 660px;
+}
+
+.atAdminNewsPictureLbl {
+	position: absolute;
+    left: 600px;
+    font-size: 16px;
+    top: 74px;
+}
+
+.atAdminNewsPicture {
+	position: absolute;
+    left: 600px;
+    font-size: 16px;
+    top: 100px;
+    width: 660px;
+}
+
+.atAdminBirthdayCaptionLbl {
+	position: absolute;
+    left: 200px;
+    font-size: 16px;
+}
+
+.atAdminBirthdayCaption {
+	position: absolute;
+    left: 200px;
+    font-size: 16px;
+    top: 30px;
+    width: 860px;
+}
+
+.atAdminBirthdayRichEdit {
+	position: absolute;
+	left: 200px;
+	top: 70px;
+	width: 870px;
+	border: 1px solid #ccc;
+}
+
+.atAdminBirthdayRichArea {
+	background: white;
+	width: 100%;
+    height: 470px;
+}
+
+.atAdminServiceMode {
+	text-align: center;
+}
+
+.atAdminServiceMode a, .atAdminServiceMode div {
+/* 	margin-top: 40px; */
+}
+
+.atAdminServiceModeHint {
+	color: #5a5a5a;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.atAdminFormulasGrid {
+	margin-top: -10px;
+}
+
+.atAdminServiceModeButton,
+.atAdminServiceModeButton:hover {
+	color: #649de3;
+	font-size: 18px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.atAdminSalePanelLayout {
+	display: inline-block;
+	white-space: nowrap;
+	margin-top: 10px;
+}
+
+.atAdminSalePanelLayout td {
+	text-align: right;
+	color: #5a5a5a;
+	font-size: 18px;
+	padding: 4px 2px;
+}
+
+.atAdminSalePanelLayout input {
+	width: 100%;
+	box-sizing: border-box;
+}
