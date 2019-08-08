@@ -1,0 +1,180 @@
+/******** Объявляем внешние стили ************/
+@external .gwt-Label;
+/*********************************************/
+
+.cellTableWidget {
+	background-color: #A9A9A9;
+	table-layout: fixed;
+	width: 100%;
+	border-spacing: 1px;
+	border-collapse: separate;
+	float: left;
+}
+
+.cellTableWidget th {
+	background-color: #FFFFFF;
+}
+
+.cellTableWidget td {
+	overflow: hidden;
+	height: 16px;
+}
+
+.cellTableWidget td[valign="bottom"] {
+	vertical-align: bottom;
+}
+
+.cellTableWidget td[valign="middle"] {
+	vertical-align: middle;
+}
+
+.cellTableWidget td[align="right"] {
+	text-align: right;
+}
+
+.cellTableWidget td[align="center"] {
+	text-align: center;
+}
+
+.cellTableCell {
+	padding: 0 1px;
+}
+
+.cellTableCell img {
+	vertical-align: middle;
+}
+
+.cellTableOddRowCell input[type='text'],
+.cellTableOddRowCell textarea {
+	background-color: #F3F7FB;
+}
+
+.cellTableCell input[type='text'],
+.cellTableCell textarea {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+}
+
+.cellTableCell input[type='checkbox'] {
+	float: left;
+    left: 50%;
+    margin: 3px 0 2px -6px;
+    position: relative;
+}
+
+.cellTableCell input:focus,
+.cellTableCell select:focus,
+.cellTableCell textarea:focus {
+	outline: none;
+}
+
+.cellTableHeader {
+	text-shadow: none;
+	border-bottom-color: #AAAAAA;
+	padding: 0 1px;
+	text-align: left;
+}
+
+.cellTableFooter {
+	text-shadow: none;
+	border-top-color: #AAAAAA;
+	padding: 1px 4px;
+}
+
+/* Костыль для панели индикатора загрузки. Без костыля фон панели - серый. */
+/* .ab-grid .gwt-CellTable-cellTableLoading { */
+/* 	margin: 0px; */
+/* 	padding: 30px 0px; */
+/* 	background-color: #FFFFFF; */
+/* } */
+
+.cellTableKeyboardSelectedCell {
+/* 	border: 2px solid #92C1F0 !important; */
+}
+
+.cellTableKeyboardSelectedRow {
+	background-color: #4499FF;
+}
+
+.cellTableKeyboardSelectedRowCell {
+	border: 2px solid #4499FF;
+}
+
+.cellTableSelectedRow {
+	background: none repeat scroll 0 0 #4499FF !important;
+}
+
+.cellTableSelectedRow a, .cellTableSelectedRow a:visited,
+.cellTableKeyboardSelectedRow a, .cellTableKeyboardSelectedRow a:visited {
+	color: white;
+}
+
+/* .cellTableSelectedRow .ab-list-cell { */
+/* 	background-color: #A1D0FF; */
+/* } */
+
+.cellTableSelectedRow a:hover,
+.cellTableKeyboardSelectedRow a:hover {
+	color: #7dc3f7;
+}
+
+.cellTableSelectedRowCell {
+	border: 2px solid #4499FF !important;
+}
+
+.cellTableEvenRow {
+	background: #fff;
+}
+
+.cellTableEvenRowCell {
+	border: 2px solid #fff;
+}
+
+.cellTableFirstColumn {}
+
+.cellTableFirstColumnFooter {}
+
+.cellTableFirstColumnHeader {}
+
+.cellTableLastColumn {}
+
+.cellTableLastColumnFooter {}
+
+.cellTableLastColumnHeader {}
+
+.cellTableLoading {
+	background-color: white;
+	padding: 20px;
+}
+
+.cellTableOddRow {
+	background: #f3f7fb;
+}
+
+.cellTableOddRowCell {
+	border: 2px solid #f3f7fb;
+}
+
+.cellTableSortableHeader {
+	cursor: pointer;
+}
+
+.cellTableSortedHeaderAscending {}
+
+.cellTableSortedHeaderDescending {}
+
+.cellTableHoveredRow {
+	background-color: #FFFFCC;
+	cursor: pointer;
+}
+
+.cellTableHoveredRowCell {
+	border: 2px solid #FFFFCC;
+}
+
+.atEditCell {
+	border: 2px solid #3784F0 !important;
+}

@@ -1,0 +1,76 @@
+@external .gwt-Label;
+
+.atHeaderGradient {
+    float: right;
+    height: 100%;
+    width: 8px;
+    position: relative;
+	background-image: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,1))); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Chrome10+,Safari5.1+ */
+	background-image: -o-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* Opera 11.10+ */
+	background-image: -ms-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* IE10+ */
+	background-image: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%); /* W3C */
+	filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 )"); /* IE6-9 */
+}
+
+.atFilteredHeader, .atFilteredHeader img {
+	background-color: #FFFFAA !important;
+}
+
+.atFilteredHeader .atHeaderGradient {
+	background-image: -moz-linear-gradient(left, rgba(255,255,170,0) 0%, rgba(255,255,170,1) 100%); FF3.6+
+	background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,170,0)), color-stop(100%,rgba(255,255,170,1))); Chrome,Safari4+
+	background-image: -webkit-linear-gradient(left, rgba(255,255,170,0) 0%,rgba(255,255,170,1) 100%); Chrome10+,Safari5.1+
+	background-image: -o-linear-gradient(left, rgba(255,255,170,0) 0%,rgba(255,255,170,1) 100%); Opera 11.10+
+	background-image: -ms-linear-gradient(left, rgba(255,255,170,0) 0%,rgba(255,255,170,1) 100%); IE10+
+	background-image: linear-gradient(to right, rgba(255,255,170,0) 0%,rgba(255,255,170,1) 100%); W3C
+	filter: literal("progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffaa', endColorstr='#ffffaa',GradientType=1 )"); IE6-9
+}
+
+.atHeaderMenuCell {
+    width: 100%;
+    height: 16px;
+    position: relative;
+}
+
+.atHeaderColumnCaption {
+    width: 100%;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    padding-top: 1px;
+	-webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.atHeaderSortBtn {
+	position: relative;
+    background-color: #FFFFFF !important;
+    background-position: 0 5px !important;
+    height: 16px !important;
+    width: 13px !important;
+    float: right;
+    cursor: pointer;
+}
+
+.atHeaderFilterBtn {
+	float: right;
+	position: relative;
+    background-color: #FFFFFF !important;
+    cursor: pointer;
+}
+
+.atFilterEditor {
+	margin-left: 2px;
+}
+
+/* .atFilterEditor .ui-ab-editor-label { */
+/* 	min-width: 80px; */
+/* } */
+
+.atFilterEditor .gwt-Label {
+	width: 230px;
+}
