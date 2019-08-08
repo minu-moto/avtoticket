@@ -1,0 +1,15 @@
+.atTablePager {
+	float: right;
+	margin-right: -2px;
+    margin-top: -3px;
+}
+
+.atTableToolbar {
+	float: left;
+	margin-bottom: 1px;
+    margin-top: -6px;
+}
+
+.atTableToolbar img {
+	margin-right: 4px;
+}

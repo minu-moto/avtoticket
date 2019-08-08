@@ -1,0 +1,29 @@
+@external .atImgToggleBtn, .atImgToggleBtn-down, .atImgToggleBtn-down-hovering, .atImgToggleBtn-up-disabled, .atImgToggleBtn-down-disabled;
+
+.atImgToggleBtn {
+	outline: none;
+	float: left;
+}
+
+.atImgToggleBtn-up-disabled .atImageBtn-atImgBtn, .atImgToggleBtn-down-disabled .atImageBtn-atImgBtn {
+	-khtml-opacity: 0.2; /* Konqueror 3.1, Safari 1.1 */
+	  -moz-opacity: 0.2; /* Mozilla 1.6 и ниже */
+	       opacity: 0.2; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+	-webkit-box-shadow: none !important;
+	   -moz-box-shadow: none !important;
+	        box-shadow: none !important;
+	cursor: default;
+}
+
+.atImgToggleBtn-down .atImageBtn-atImgBtn,
+.atImgToggleBtn-down-disabled .atImageBtn-atImgBtn,
+.atImgToggleBtn-down-hovering .atImageBtn-atImgBtn {
+	border-color: #3784F0;
+	background-color: #D0E4F6 !important;
+}
+
+.atRichToolbarBtnPanel {
+	line-height: 0px;
+	display: inline-block;
+	margin-right: 12px;
+}

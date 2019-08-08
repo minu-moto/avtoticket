@@ -1,0 +1,37 @@
+.atImgBtn {
+	margin-top: 4px;
+	margin-left: 4px;
+	border: 1px solid #888888;
+	cursor: pointer;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	    -ms-border-radius: 2px;
+	     -o-border-radius: 2px;
+	        border-radius: 2px;
+	-webkit-transition: box-shadow ease .2s;
+	   -moz-transition: box-shadow ease .2s;
+	     -o-transition: box-shadow ease .2s;
+	        transition: box-shadow ease .2s;
+}
+
+.atImgBtn:hover {
+	-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.atImgBtn:active {
+	-webkit-box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+	   -moz-box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+	        box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.atImgBtnDisabled {
+	-khtml-opacity: 0.2; /* Konqueror 3.1, Safari 1.1 */
+	  -moz-opacity: 0.2; /* Mozilla 1.6 и ниже */
+	       opacity: 0.2; /* CSS3 - Mozilla 1.7b +, Firefox 0.9 +, Safari 1.2+, Opera 9 */
+	-webkit-box-shadow: none !important;
+	   -moz-box-shadow: none !important;
+	        box-shadow: none !important;
+	cursor: default;
+}

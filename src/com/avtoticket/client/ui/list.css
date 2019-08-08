@@ -1,0 +1,22 @@
+@sprite .atList {
+	gwt-image: 'arrow';
+	height: auto;
+	width: auto;
+	border: 1px solid #535353;
+	border-radius: 1px;
+	font-size: 16px;
+	padding: 5px 50px 5px 12px;
+    cursor: pointer;
+    background-position: right 16px center;
+    background-color: white;
+}
+
+.atListSuggestions {
+    max-height: 290px;
+    overflow: auto;
+}
+
+.atListSuggestions > table {
+	width: 100%;
+	margin-right: 18px;
+}

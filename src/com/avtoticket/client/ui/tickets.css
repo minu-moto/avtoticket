@@ -1,0 +1,119 @@
+.atTickets {
+	width: 1270px;
+    min-height: 370px;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.atTicketsList {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.atTicketsList .gwt-CellList-cellListEvenItem,
+.atTicketsList .gwt-CellList-cellListOddItem {
+	display: inline-block;
+	border: 2px groove #c2c2c2;
+    border-radius: 2px;
+    margin: 0px 4px;
+    text-align: left;
+    cursor: inherit;
+    padding-bottom: 14px;
+    background-color: white;
+    position: relative;
+}
+
+.atTicketsHeader {
+	position: relative;
+	color: white;
+    background-color: #649de3;
+    padding: 14px 100px 14px 18px;
+    width: 268px;
+    margin-left: -1px;
+    margin-top: -1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+
+.atTicketsRepeat {
+    position: absolute;
+    bottom: -20px;
+    right: 4px;
+    font-size: 14px;
+    color: #33633C !important;
+}
+
+.atTicketsDelete {
+    position: absolute;
+    bottom: -20px;
+    left: 4px;
+    font-size: 14px;
+    color: #ff4165 !important;
+}
+
+.atTicketsRow {
+	position: relative;
+	min-height: 19px;
+	margin: 6px 0px;
+}
+
+.atTicketsLabel {
+	position: absolute;
+    width: 130px;
+    height: 100%;
+    margin-left: 14px;
+    font-size: 14px;
+    color: #515151;
+}
+
+.atTicketsValue {
+	font-size: 14px;
+    color: #649de3;
+    margin-left: 144px;
+}
+
+@sprite .atTicketsWaiter {
+	gwt-image: 'waiter';
+	position: relative;
+    left: 50%;
+    margin-left: -8px;
+}
+
+.atTicketsPager {
+	position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+}
+
+.atTicketsPagerCount {
+	font-size: 14px;
+	color: #649de3;
+	margin-top: 22px;
+}
+
+.atTicketsPagerPrev, .atTicketsPagerNext {
+	position: absolute;
+	top: 240px;
+	cursor: pointer;
+	border-color: transparent #649de3;
+    border-style: solid;
+}
+
+.atTicketsPagerPrev {
+    border-width: 18px 28px 18px 0px;
+}
+
+.atTicketsPagerNext {
+	right: 0px;
+    border-width: 18px 0px 18px 28px;
+}
+
+.atTicketsPagerDisabledBtn {
+	border-color: transparent #ccc;
+}

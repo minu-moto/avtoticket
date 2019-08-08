@@ -1,0 +1,46 @@
+.atField {
+	border: 1px solid #CCCCCC;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+	    -ms-border-radius: 2px;
+	     -o-border-radius: 2px;
+	        border-radius: 2px;
+	-webkit-transition: border linear .2s, box-shadow linear .2s;
+	-moz-transition: border linear .2s, box-shadow linear .2s;
+	-o-transition: border linear .2s, box-shadow linear .2s;
+	transition: border linear .2s, box-shadow linear .2s;
+}
+
+.atInvalidField {
+	background: none repeat scroll 0 0 #FFDDDD;
+}
+
+@if !user.agent safari {
+	.atField:focus {
+		border-color: rgba(82, 168, 236, 0.8);
+		outline: none;
+		-moz-box-shadow: 0 0 2px rgba(82, 168, 236, 0.6);
+		box-shadow: 0 0 2px rgba(82, 168, 236, 0.6);
+	}
+
+	.atInvalidField:focus {
+		border-color: rgba(236, 128, 100, 0.8);
+		-moz-box-shadow: 0 0 2px rgba(255, 86, 86, 0.6);
+		box-shadow: 0 0 2px rgba(255, 86, 86, 0.6);
+	}
+}
+
+@if user.agent safari {
+	.atField:focus {
+		border-color: rgba(82, 168, 236, 0.8);
+		outline: none;
+		-webkit-box-shadow: 0 0 4px rgba(82, 168, 236, 0.6);
+		box-shadow: 0 0 4px rgba(82, 168, 236, 0.6);
+	}
+
+	.atInvalidField:focus {
+		border-color: rgba(236, 128, 100, 0.8);
+		-webkit-box-shadow: 0 0 4px rgba(255, 86, 86, 0.6);
+		box-shadow: 0 0 4px rgba(255, 86, 86, 0.6);
+	}
+}
