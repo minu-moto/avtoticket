@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+	    <encoder>
+	      	<pattern>%-5level[ %d{HH:mm:ss dd.MM} ] %logger{20}.%M:%L %msg%n%ex{20}</pattern>
+	    </encoder>
+  	</appender>
+
+	<logger name="net.sf.jasperreports" level="INFO"/>
+	<logger name="org.apache.commons" level="INFO"/>
+	<logger name="org.apache.jasper" level="INFO"/>
+	<logger name="org.apache.axis2" level="INFO"/>
+	<logger name="org.apache.axiom" level="INFO"/>
+	<logger name="org.apache.rampart" level="INFO"/>
+	<logger name="org.apache.ws" level="INFO"/>
+	<logger name="org.quartz" level="INFO"/>
+	<logger name="httpclient.wire" level="INFO"/>
+	<logger name="org.eclipse.jetty" level="INFO"/>
+
+  	<root level="DEBUG">
+		<appender-ref ref="STDOUT" />
+	</root>
+</configuration>
